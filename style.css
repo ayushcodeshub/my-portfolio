@@ -4,10 +4,10 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: "inter";
-	background-color: #F7F9FC;
-	color: #2D2D2D;
-	line-height:1.6;
+	font-family: 'Poppins',sans-serif;
+	background-color: #0F172A;
+	color: #E5E7EB;
+	line-height: 1.6;
 }
 a {
 	text-decoration: none;
@@ -16,19 +16,101 @@ a {
 ul {
 	list-style: none;
 }
+button {
+	background-color: #3B82F6;
+	color: white;
+}
+button:hover {
+	background-color: #2563EB;
+}
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px 40px;
+	padding: 20px 40px;
+	background-color: #111827;
+}
+.logo {
+	font-size: 22px;
+	font-weight: 600;
+	color: #E5E7EB;
 }
 .nav-links {
 	display: flex;
-	gap: 20px;
+	gap: 25px;
+	list-style: none;
+	text-decoration: none;
+	color: #E5E7EB;
+	font-weight: 500;
+	transition: 0.3s;
 }
-.container {
-    max-width:1100px;
-    margin: 0 auto;
-    padding: 80px 20px;
+.nav-links:hover {
+	color: #3B82F6;
 }
+.home {
+	padding: 80px 20px;
+	text-align: center;
+}
+.home h2 {
+    font-size: 40px;
+	font-weight: 700;
+	color: #3B82F6;
+}
+.home p {
+	color: #9CA3AF;
+	max-width: 500px;
+	margin:auto
+}
+.about {
+	padding: 60px 20px;
+	text-align: center;
 
+}
+.about h2{
+	color:#E5E7EB;
+}
+.about p {
+	color:#9CA3AF;
+	max-width: 500px;
+}
+.skills {
+	padding: 60px 20px;
+	text-align: center;
+}
+.skills ul {
+	display: flex;
+	gap: 25px;
+	justify-content: center;
+}
+.skills li {
+	background-color: #1E293B;
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+.projects {
+	padding: 60px 20px;
+	text-align: center;
+}
+.projects h3 {
+	padding: 20px;
+	background-color: #1E293B;
+	color:#E5E7EB;
+	border-radius: 10px;
+}
+.projects p {
+	color: #9CA3AF;
+}
+.contact {
+	padding: 60px 20px;
+	text-align: center;
+}
+.contact a {
+	color:#3B82F6;
+	text-decoration: none;
+}
+.contact a:hover {
+	text-decoration: underline;
+}
+.footer {
+    text-align: center;
+}
