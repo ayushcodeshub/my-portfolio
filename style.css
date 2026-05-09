@@ -120,3 +120,6 @@ button:hover {
 		padding: 60px 15px;
 	}
 }
+html {
+	scroll-behavior: smooth;
+}
