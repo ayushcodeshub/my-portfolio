@@ -127,6 +127,12 @@ button:hover {
 	.nav-links {
 		flex-wrap: wrap;
 	}
+	.home {
+		min-height: auto;
+	}
+	.skills {
+		gap: 20px;
+	}
 }
 html {
 	scroll-behavior: smooth;
