@@ -119,6 +119,14 @@ button:hover {
 	section {
 		padding: 60px 15px;
 	}
+	.navbar {
+		flex-direction: column;
+		align-items: center;
+		gap:20px;
+	}
+	.nav-links {
+		flex-wrap: wrap;
+	}
 }
 html {
 	scroll-behavior: smooth;
